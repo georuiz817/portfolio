@@ -1,0 +1,14 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: Lucida Console; }
+
+.Nav-Bar {
+  text-decoration: none;
+  color: white; }
+
+.boot-up-info {
+  margin-top: 200px; }
+
+.home-head p {
+  margin-bottom: -5px; }
