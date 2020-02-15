@@ -1,14 +1,37 @@
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  border-style: inset;
+  border: solid grey 30px; }
+
 body {
   color: white;
   background-color: black;
-  font-family: Lucida Console; }
+  font-family: Lucida Console;
+  border-color: darkgray;
+  border: solid 30px;
+  margin: 0px;
+  min-height: 100%;
+  width: 100%; }
 
 .Nav-Bar {
   text-decoration: none;
-  color: white; }
+  color: black;
+  background-color: lightgray; }
 
 .boot-up-info {
   margin-top: 200px; }
+  .boot-up-info p {
+    margin-bottom: -4px; }
 
 .home-head p {
   margin-bottom: -5px; }
+
+.card-columns {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: blue; }
+  .card-columns div {
+    box-shadow: 10px 10px 5px grey; }

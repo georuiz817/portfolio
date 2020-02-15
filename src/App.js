@@ -11,7 +11,7 @@ import Menu from './components/Menu.js'
 function App() {
   return (
     <Router>
-      <NavBar />
+     
       <div className="container">
         <Switch>
           <Route exact path="/" component={HomeComp} />
