@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 //comps
 import HomeComp from './components/HomeComp.js'
-import NavBar from './components/NavBar.js'
+//import NavBar from './components/NavBar.js'
 import Menu from './components/Menu.js'
 
 function App() {
