@@ -49,7 +49,3 @@ body {
   color: black;
   display: inline;
   margin-right: 30px; }
-
-.about-page .about-img img {
-  border-radius: 50%;
-  image-rendering: pixelated; }
