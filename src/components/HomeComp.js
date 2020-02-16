@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import me from '../photos/me.png'
+import me4 from '../photos/me4.png'
+import me8 from '../photos/me8.png'
+import me22 from '../photos/me22.png'
 
 class HomeComp extends Component {
-   
-    componentDidMount(){
+
+
+      componentDidMount(){
      setTimeout(function(){document.getElementById('boot-text').innerHTML = "<p>Booting up.</p>"}, 1000);
      setTimeout(function(){document.getElementById('grab-text').innerHTML = "<p>Grabbing portfolio information..</p>"}, 1500);
      setTimeout(function(){document.getElementById('image-text').innerHTML='<p>Finding components...</p>'},2000);
@@ -13,6 +18,11 @@ class HomeComp extends Component {
     
 
     render(){
+      const imagePixelator = () => {
+        setTimeout(function(){document.getElementById('pixel-img').src = me8 }, 500);
+        setTimeout(function(){document.getElementById('pixel-img').src = me4 }, 1000);
+        setTimeout(function(){document.getElementById('pixel-img').src = me }, 1500);
+      }
       const today = new Date();
       const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
       const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
@@ -27,6 +37,9 @@ class HomeComp extends Component {
               <p>Portfolio 2020</p>
               {dateTime}
             </div>
+            <div className="about-img">
+                <img alt="n/a" id="pixel-img" onLoad={imagePixelator()} src={me22} />
+              </div>
             <div className="boot-up-info">
                 <p id="boot-text"></p>
                 <p id="grab-text"></p>

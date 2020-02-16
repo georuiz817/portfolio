@@ -1,33 +1,24 @@
 import React from 'react'
-import me from '../photos/me.png'
-import me4 from '../photos/me4.png'
-import me8 from '../photos/me8.png'
-import me22 from '../photos/me22.png'
-
+import Row from 'react-bootstrap/Row'
 
 const AboutComp = () => {
-  const imagePixelator = () => {
-    setTimeout(function(){document.getElementById('pixel-img').src = me8 }, 1000);
-    setTimeout(function(){document.getElementById('pixel-img').src = me4 }, 2000);
-    setTimeout(function(){document.getElementById('pixel-img').src = me }, 3000);
 
-  }
-  
-    return (
-       <div className="about-page" >
-         <div className="about-educated">
-           <h1>Educated</h1>
-           <p>After graduating with a Bachelors from Stony Brook in 2016, I started working in corporate office environments. I was able to thrive in hands on experience with topics like team building, data management, and corporate best practices.</p>
-           </div>
-          
-          <div className="about-img">
-            <img alt="n/a" id="pixel-img" onLoad={imagePixelator()} src={me22} />
-          </div>
-          
-
-
+  return (
+      <div className="about-page" >
+          <Row>
+              <div class="col-lg-4" className="about-educated">
+                <p>Educated</p>
+                <p>After graduating with a Bachelors from Stony Brook in 2016, I started working in corporate office environments. I was able to thrive in hands on experience with topics like team building, data management, and corporate best practices.</p>
+                <p>When given a suggestion that I should look into Web Development, I immediately started to do my research. I completed every course possible. Codecademy, Khan Academy, and Free Code Camp were no exceptions. I decided at this point to open up my horizons and enroll in Flatiron Schools Full Stack Web Development boot camp. Six months of team work, independent work, and training on both Front and Back end development has given me the opportunity to display an array of exciting and even some silly portfolio projects.</p>
+              </div>
+              <div class='col-lg-4'>
+                <p>Always learning</p>
+                <p>Now being graduated from Flatiron, I’m on to the next step of my journey. Not only am I career seeking for a company that I can give me fresh new insight to development on. But I’m constantly creating, learning, and collaborating on additional projects to flourish.</p>
+              </div>
+          </Row>
     </div>
- 
+
+
     )
   }
 
