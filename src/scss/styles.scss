@@ -21,8 +21,9 @@ width: 100%;
     text-decoration: none;
     color:black;
     background-color: lightgray;
+    display: inline;
 }
-//////////////////////////////////
+
 .boot-up-info {
     margin-top: 200px;
     p{
@@ -33,7 +34,7 @@ width: 100%;
 .home-head p{
     margin-bottom: -5px;
 }
-/////////////////////////////////////
+
 .card-columns{
     margin: 0px;
     margin-top: 40px;
@@ -44,6 +45,32 @@ width: 100%;
         box-shadow: 10px 10px 5px black;
         margin-top: 30px;
         color: black;
+        font-size: 20px;
+        text-align: center;
     }
 }
 
+.Nav-Bar{
+    
+    ul {
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+    }
+      li  {
+        color: black;
+        display: inline;
+        margin-right: 30px;
+    }
+}
+
+.about-page{
+    .about-educated{
+        
+    }
+    .about-img{
+    img{
+        border-radius: 50%;
+        image-rendering: pixelated
+       }
+    }
+  }
