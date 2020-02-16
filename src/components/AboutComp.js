@@ -22,8 +22,10 @@ const AboutComp = () => {
           
           <div className="about-img">
             <img alt="n/a" id="pixel-img" onLoad={imagePixelator()} src={me22} />
-              
-            </div>
+          </div>
+          
+
+
     </div>
  
     )
