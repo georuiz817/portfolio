@@ -17,8 +17,11 @@ body {
 .Nav-Bar {
   text-decoration: none;
   color: black;
-  background-color: lightgray;
+  background-color: #d3d3d3;
   display: inline; }
+  .Nav-Bar a {
+    text-decoration: none;
+    color: black; }
 
 .boot-up-info {
   margin-top: 30px; }
@@ -50,7 +53,6 @@ body {
   display: inline;
   margin-right: 30px; }
 
-.about-page {
-  font-size: 12px; }
-  .about-page .about-educated {
-    max-width: 400px; }
+.about-buttons button {
+  margin-right: 30px;
+  margin-bottom: 20px; }

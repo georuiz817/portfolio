@@ -4,6 +4,7 @@ html {
     width: 100%;
     border: 30px solid darkgray;
     border-style: inset;
+
 }
 
 body{
@@ -14,14 +15,23 @@ border: solid black 50px;
 margin: 0px;
 min-height: 100%;
 width: 100%;
-}
+
+
+}   
 
 .Nav-Bar{
     text-decoration: none;
     color:black;
-    background-color: lightgray;
+    background-color: #d3d3d3;
     display: inline;
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
+
+
 
 .boot-up-info {
     margin-top: 30px;
@@ -62,13 +72,8 @@ width: 100%;
     }
 }
 
-
-.about-page{
-    font-size: 12px;
-.about-educated{
-    max-width: 400px;
-    }
+.about-buttons button{
+    margin-right: 30px;
+    margin-bottom: 20px;
 }
-
-
 
