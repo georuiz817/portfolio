@@ -2,11 +2,11 @@ html {
   margin: 0px;
   height: 100%;
   width: 100%;
-  border: 30px solid darkgray;
-  border-style: inset; }
+  min-width: 1000px;
+  min-height: 100px; }
 
 body {
-  color: white;
+  color: lightblue;
   background-color: blue;
   font-family: Lucida Console;
   border: solid black 50px;
@@ -14,14 +14,19 @@ body {
   min-height: 100%;
   width: 100%; }
 
+a {
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  text-decoration: none;
+  color: black; }
+
 .Nav-Bar {
   text-decoration: none;
   color: black;
   background-color: #d3d3d3;
   display: inline; }
-  .Nav-Bar a {
-    text-decoration: none;
-    color: black; }
 
 .boot-up-info {
   margin-top: 30px; }
@@ -53,6 +58,16 @@ body {
   display: inline;
   margin-right: 30px; }
 
-.about-buttons button {
-  margin-right: 30px;
-  margin-bottom: 20px; }
+.about-buttons {
+  border: solid thin lightblue;
+  height: 100%;
+  width: 100%; }
+  .about-buttons button {
+    margin-right: 30px;
+    margin-bottom: 20px; }
+
+.Contact-Page {
+  border: solid thin lightblue;
+  color: lightblue; }
+  .Contact-Page a {
+    color: lightblue; }

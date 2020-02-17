@@ -20,10 +20,11 @@ const AboutComp = () => {
 
   return (
       <div className="about-buttons">
+        
         <button onClick={EducatedClick}>Educated</button>
         <button onClick={Learningclick}>Contantly Learning</button>
         <button onClick={Careerclick}>Career-Seeking</button>
-        <p id="about-info"></p>
+        <p id="about-info">Click a button!</p>
 
      </div>
 
