@@ -6,8 +6,8 @@ html {
   min-height: 100px; }
 
 body {
-  color: lightblue;
-  background-color: blue;
+  color: #57ffff;
+  background-color: #0000a8;
   font-family: Lucida Console;
   border: solid black 50px;
   margin: 0px;
@@ -44,19 +44,20 @@ a:hover {
   margin-bottom: -5px; }
 
 .about-buttons {
-  border: solid thin lightblue;
+  border: solid thin  #57ffff;
   height: 400px;
   width: 100%; }
   .about-buttons button {
+    margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 20px;
     margin-top: 20px; }
 
 .Contact-Page {
-  border: solid thin lightblue;
-  color: lightblue; }
+  border: solid thin  #57ffff;
+  color: #57ffff; }
   .Contact-Page a {
-    color: lightblue; }
+    color: #57ffff; }
 
 .card {
   background: #f0f0f0;
