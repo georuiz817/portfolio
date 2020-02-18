@@ -1,15 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Resume from '../Ruiz_Resume.pdf'
-import NavBar from './NavBar'
+
 
 
 const Menu = () => {
 
   return (
    <div>
-   <NavBar/>
-   <div className="button-group">
+
+<div className='desc'>
+   <p>Hello my name is George.</p>
+   <p>I'm a Full Stack Web Developer.</p>
+   <p>Feel free to check out my site. Theirs tons to do from viewing the information to doing some editing yourself</p>
+   <p>I challenge you to discover every nook and cranny of the site ranging from changing the color scheme to using a DOS based quick search</p>
+</div>
       <div class="card">
          <Link to="/about">
          <div class="card-body">About...</div>
@@ -36,8 +41,13 @@ const Menu = () => {
       <div class="card">
          <div class="card-body">ReadME.MD</div>
       </div>
-   </div>
-</div>
+      
+
+ 
+      </div>
+ 
+
+   
 )
 }
 

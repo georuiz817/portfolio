@@ -6,11 +6,11 @@ import Menu from './components/Menu.js'
 import AboutComp from './components/AboutComp.js'
 import ContactComp from './components/ContactComp.js'
 import ProjectsComp from './components/ProjectsComp.js'
-
+import NavBar from './components/NavBar.js'
 function App() {
   return (
     <Router>
- 
+      <NavBar/>
       <div className="container">
         <Switch>
         <Route exact path='/' component={HomeComp} />

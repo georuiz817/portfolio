@@ -45,11 +45,12 @@ a:hover {
 
 .about-buttons {
   border: solid thin lightblue;
-  height: 100%;
+  height: 400px;
   width: 100%; }
   .about-buttons button {
     margin-right: 30px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    margin-top: 20px; }
 
 .Contact-Page {
   border: solid thin lightblue;
@@ -58,11 +59,17 @@ a:hover {
     color: lightblue; }
 
 .card {
-  display: block;
   background: #f0f0f0;
   width: 15%;
   text-align: center;
-  border-radius: 5px;
   color: black;
   box-shadow: 10px 10px 5px black;
-  margin-bottom: 1.1%; }
+  margin-bottom: 1.1%;
+  border-radius: 0%;
+  display: block;
+  max-width: 15%; }
+
+.desc {
+  border: solid thin lightblue;
+  float: right;
+  width: 70%; }
