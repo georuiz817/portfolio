@@ -8,7 +8,7 @@ html {
 body {
   color: #57ffff;
   background-color: #0000a8;
-  font-family: Lucida Console;
+  font-family: Lucida  Console;
   border: solid black 50px;
   margin: 0px;
   min-height: 100%;
@@ -65,7 +65,7 @@ a:hover {
   text-align: center;
   color: black;
   box-shadow: 10px 10px 5px black;
-  margin-bottom: 1.1%;
+  margin-bottom: 2%;
   border-radius: 0%;
   display: block;
   max-width: 15%; }

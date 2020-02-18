@@ -32,9 +32,7 @@ const Menu = () => {
             <div class="card-body">Resume...</div>
          </a>
       </div>
-      <div class="card">
-         <div class="card-body">Hobbies...</div>
-      </div>
+
       <div class="card">
          <Link to='/contact'>
          <div class="card-body">Contact...</div>
