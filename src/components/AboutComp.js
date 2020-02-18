@@ -26,6 +26,8 @@ const AboutComp = () => {
         <button onClick={Careerclick}>Career-Seeking</button>
         <p id="about-info">Click a button!</p>
 
+ 
+
      </div>
 
 

@@ -27,6 +27,13 @@ a:hover {
   color: black;
   background-color: #d3d3d3;
   display: inline; }
+  .Nav-Bar ul {
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3; }
+  .Nav-Bar li {
+    color: black;
+    display: inline;
+    margin-right: 30px; }
 
 .boot-up-info {
   margin-top: 30px; }
@@ -35,28 +42,6 @@ a:hover {
 
 .home-head p {
   margin-bottom: -5px; }
-
-.card-columns {
-  margin: 0px;
-  margin-top: 40px;
-  height: 100%;
-  width: 100%;
-  background-color: blue; }
-  .card-columns div {
-    box-shadow: 10px 10px 5px black;
-    margin-top: 30px;
-    color: black;
-    font-size: 20px;
-    text-align: center; }
-
-.Nav-Bar ul {
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3; }
-
-.Nav-Bar li {
-  color: black;
-  display: inline;
-  margin-right: 30px; }
 
 .about-buttons {
   border: solid thin lightblue;
@@ -71,3 +56,13 @@ a:hover {
   color: lightblue; }
   .Contact-Page a {
     color: lightblue; }
+
+.card {
+  display: block;
+  background: #f0f0f0;
+  width: 15%;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 10px 10px 5px black;
+  margin-bottom: 1.1%; }
