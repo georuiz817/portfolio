@@ -85,7 +85,8 @@ a:hover {
 .GOS {
   float: right;
   width: 70%;
-  margin-bottom: 3%; }
+  margin-bottom: 3%;
+  color: lightblue; }
 
 .about-body {
   background: #f0f0f0;

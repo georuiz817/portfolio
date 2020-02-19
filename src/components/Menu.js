@@ -22,7 +22,8 @@ const Menu = () => {
        <div class="card-body">
           <div class='text-body'>          
           <h4>Welcome to the GOS Editor and Reader</h4>
-          <p>Please feel free to take a look and play with any of the features.</p>
+          <p>I am George Ruiz. Full Stack Developer and graduate of Flatiron Scool.</p>
+          <p>Feel free to search around and play with some features.</p>
           </div>
 
        

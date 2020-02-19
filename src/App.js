@@ -7,6 +7,9 @@ import AboutComp from './components/AboutComp.js'
 import ContactComp from './components/ContactComp.js'
 import ProjectsComp from './components/ProjectsComp.js'
 import NavBar from './components/NavBar.js'
+import Readme from './components/Readme.js'
+
+
 function App() {
   return (
     <Router>
@@ -18,6 +21,7 @@ function App() {
           <Route exact path="/menu" component={Menu}/>
           <Route exact path="/contact" component={ContactComp} />
           <Route exact path='/projects' component={ProjectsComp}/>
+          <Route exact path='/readme' component={Readme}/>
         </Switch>
       </div>
     </Router>
