@@ -10,9 +10,8 @@ html {
 }
 
 body{
-color: #57ffff;
+color: lightgray;
 background-color: #0000a8;
-font-family: Lucida  Console; 
 border: solid black 50px;
 margin: 0px;
 min-height: 100%;
@@ -51,6 +50,10 @@ a:hover{
     
 }
 
+.form-bar{
+    display: inline;
+}
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -69,7 +72,7 @@ a:hover{
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .about-buttons {
-    border: solid thin  #57ffff;
+    border: solid thin  lightgray;
     height: 400px;
     width: 100%;
     
@@ -109,10 +112,38 @@ a:hover{
     
 }
 
+.card-body:first-letter {
+    color: red;
+  }
+
+  #read-e{
+      color: red;
+  }
+
  .desc{
-     border: solid thin lightblue;
+ 
      float: right;
      width: 70%;
+ }
+
+ .GOS{
+     float: right;
+     width: 70%;
+     margin-bottom: 3%;
+ }
+
+ .about-body{
+    background: #f0f0f0;
+    text-align: center;
+    color: black;
+    border-radius: 0%;
+    box-shadow: 10px 10px 5px black;
+  
+ }
+
+ .text-body{
+     border: solid black thin;
+     padding: 50px;
  }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////

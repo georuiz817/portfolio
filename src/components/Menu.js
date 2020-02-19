@@ -1,20 +1,35 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Resume from '../Ruiz_Resume.pdf'
-
-
+import Typical from 'react-typical'
 
 const Menu = () => {
 
   return (
    <div>
 
-<div className='desc'>
-   <p>Hello my name is George.</p>
-   <p>I'm a Full Stack Web Developer.</p>
-   <p>Feel free to check out my site. Theirs tons to do from viewing the information to doing some editing yourself</p>
-   <p>I challenge you to discover every nook and cranny of the site ranging from changing the color scheme to using a DOS based quick search</p>
-</div>
+    <div className="GOS">
+    <Typical
+        steps={['GOS', 1000, 'George-Operating-System', 500]}
+        loop={Infinity}
+        wrapper="p"
+      />
+    </div>
+    
+
+       <div  className='desc'>
+          <div className='about-body'>
+       <div class="card-body">
+          <div class='text-body'>          
+          <h4>Welcome to the GOS Editor and Reader</h4>
+          <p>Please feel free to take a look and play with any of the features.</p>
+          </div>
+
+       
+       
+       </div>
+       </div>
+       </div>
 
        <div class="card">
          <Link to="/about">
@@ -39,7 +54,7 @@ const Menu = () => {
          </Link>
       </div>
       <div class="card">
-         <div class="card-body">ReadME.MD</div>
+         <div class="card-body">R<span id="read-e">e</span>adME.MD</div>
       </div>
       
 

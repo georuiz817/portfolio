@@ -1,16 +1,44 @@
-import React from 'react'
+import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
-import Resume from '../Ruiz_Resume.pdf'
+import { Redirect } from 'react-router-dom'
 
 const NavBar = () => {
+
+   const [SearchLtr, UpdateSearchLtr] = useState("");
+
+
+   const handleSubmit = (e) => {
+     
+    e.preventDefault();
+    console.log({SearchLtr})
+    if ( {SearchLtr} === 'A'){
+      return <Redirect to='/about' />
+    }
+    
+  } 
+
+
+
     return (
        <div className="Nav-Bar">
         <ul>
-          <Link to="/menu"><li>menu</li></Link>
-          <Link to="/about"><li>about</li></Link>
-          <Link to='/contact'><li>contact</li></Link>
-          <li><a href = {Resume}>resume</a></li>
-        </ul>
+          <li>file</li>
+          <Link to="/menu"><li>Menu</li></Link>
+            
+                 <form className="form-bar" onSubmit={handleSubmit}>
+            
+                 <input type="text" value={SearchLtr} name="name" onChange={(e) => UpdateSearchLtr( e.target.value)}/>
+       
+                 <button id="button" type="submit">🔎</button>
+ 
+                 </form>
+              
+   
+
+         
+         
+         
+         </ul>
        </div>
  
     )
