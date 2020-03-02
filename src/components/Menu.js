@@ -56,11 +56,12 @@ const Menu = () => {
 
 
       <Card className='cardEdit' >
-         <Link to='/contact'>
-            <Card.Body>
+      <a href="mailto:ruiz.fullstack@gmail.com">
+         <Card.Body>
                Contact...
             </Card.Body>
-         </Link>
+      </a>
+     
       </Card>
 
 

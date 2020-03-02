@@ -16,8 +16,6 @@ const NavBar = () => {
     
     if ( searchLogix === 'A'){
       history.push('/about');
-    } else if (searchLogix === 'C'){
-      history.push('/contact');
     } else if (searchLogix === 'P'){
       window.open(
         'https://ruizport.wordpress.com/',
@@ -28,6 +26,9 @@ const NavBar = () => {
       } else if (searchLogix === 'R'){
         window.open(Resume, 
         '_blank'
+        );
+      }else if (searchLogix === 'C'){
+        window.open("mailto:ruiz.fullstack@gmail.com"
         );
       }
     } 
