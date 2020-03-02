@@ -13,6 +13,9 @@ body {
   min-height: 100%;
   width: 100%; }
 
+.container {
+  text-overflow: auto; }
+
 a {
   text-decoration: none;
   color: black; }
@@ -51,7 +54,7 @@ a:hover {
   margin-bottom: 3%;
   color: lightblue; }
 
-.card {
+.cardEdit {
   background: #f0f0f0;
   width: 15%;
   text-align: center;
@@ -61,7 +64,7 @@ a:hover {
   border-radius: 0%;
   display: block;
   max-width: 15%; }
-  .card .card-body:first-letter {
+  .cardEdit .card-body:first-letter {
     color: red; }
 
 .main-card {
@@ -76,3 +79,15 @@ a:hover {
 
 #read-e {
   color: red; }
+
+.about p {
+  font-size: 14px; }
+
+.pre-tech-card {
+  background: #f0f0f0;
+  text-align: center;
+  color: black;
+  border-radius: 0%;
+  box-shadow: 10px 10px 5px black;
+  padding: 10px;
+  margin-bottom: 25px; }

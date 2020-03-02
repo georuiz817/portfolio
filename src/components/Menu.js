@@ -27,7 +27,7 @@ const Menu = () => {
          </Card.Body>
        
 
-      <Card > 
+      <Card className='cardEdit' > 
          <Link to="/about">
             <Card.Body>
                About...
@@ -37,7 +37,7 @@ const Menu = () => {
   
 
 
-      <Card > 
+      <Card className='cardEdit' > 
          <a href="https://ruizport.wordpress.com/" target="_blank" rel="noopener noreferrer">
             <Card.Body>
                Projects...  
@@ -46,7 +46,7 @@ const Menu = () => {
       </Card>
 
 
-      <Card >
+      <Card className='cardEdit' >
          <a href={Resume}>
             <Card.Body>
                Resume...
@@ -55,7 +55,7 @@ const Menu = () => {
       </Card>
 
 
-      <Card >
+      <Card className='cardEdit' >
          <Link to='/contact'>
             <Card.Body>
                Contact...
@@ -64,7 +64,7 @@ const Menu = () => {
       </Card>
 
 
-      <Card >
+      <Card className='cardEdit' >
          <Card.Body>
             R<span id="read-e">e</span>adME.MD
          </Card.Body>
