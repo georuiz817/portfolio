@@ -1,3 +1,38 @@
+GOS
+
+My portoflio with links, features, and information about me.
+Getting Started
+
+This project runs on heroku so theirs nothing you'll need to do. Just sit back and enjoy.
+
+However, if you're cloning the project to run on your local machine please follow the instructions below.
+
+Prerequisites
+
+    React
+    yarn
+
+Installing
+
+    Git clone https://github.com/georuiz817/portfolio.git
+    cd into portfolio
+    yarn install
+    yarn start
+    project will run on http://localhost:3000
+
+Built With
+
+    Web Framework - JavaScript/React (hooks for state)
+    Design/css preprocessor -  React Boostrap/Sass
+    Package Manager: Yarn
+
+Authors
+
+George Ruiz - Full Stack Web Developer
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -66,9 +66,11 @@ const Menu = () => {
 
 
       <Card className='cardEdit' >
+         <Link to='/readme'>
          <Card.Body>
             R<span id="read-e">e</span>adME.MD
          </Card.Body>
+         </Link>
       </Card>
 
 
