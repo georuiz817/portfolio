@@ -5,7 +5,7 @@ import me4 from '../photos/me4.png'
 import me8 from '../photos/me8.png'
 import me22 from '../photos/me22.png'
 import BootUpSound from '../BootUpSound.mp3'
-import Energy from '../energyLogo.jpg'
+import Energy from '../energy-black.jpg'
 
 class HomeComp extends Component {
 
@@ -39,13 +39,13 @@ class HomeComp extends Component {
         <p id="date-time"></p>
             
         <div className="home-head">
-          <p>George Ruiz</p> <span id="home-img"><img height='150px' src={Energy} /></span>
+          <p>George Ruiz</p> <span id="home-img"><img height='250px' src={Energy} /></span>
           <p>Portfolio 2020</p>
           {dateTime}
         </div>
             
         <div className="about-img">
-          <img alt="n/a" id="pixel-img" onLoad={imagePixelator()} src={me22} />
+          <img height='150px' alt="n/a" id="pixel-img" onLoad={imagePixelator()} src={me22} />
         </div>
          
         <div className="boot-up-info">
