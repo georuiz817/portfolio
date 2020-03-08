@@ -17,7 +17,6 @@ const Readme = () => {
         <BuiltWith/>
         <Authors />
     </div>
- 
     )
   }
 

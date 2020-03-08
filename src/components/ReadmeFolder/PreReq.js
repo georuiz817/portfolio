@@ -3,14 +3,14 @@ import React from 'react'
 
 const PreReq = () => {
     return (
-        <div>
+      <div>
         <h3>Prerequisites</h3>
         <ul>
           <li>React</li>
           <li>yarn</li>
         </ul>
-        </div>
-    )
-}
+      </div>
+      )
+    }
 
 export default PreReq

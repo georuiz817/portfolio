@@ -4,6 +4,8 @@ import me from '../photos/me.png'
 import me4 from '../photos/me4.png'
 import me8 from '../photos/me8.png'
 import me22 from '../photos/me22.png'
+import BootUpSound from '../BootUpSound.mp3'
+import Energy from '../energyLogo.jpg'
 
 class HomeComp extends Component {
 
@@ -27,34 +29,35 @@ class HomeComp extends Component {
       const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
       const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
       const dateTime = date+' '+time;
-        return(
-          
-     
-            <div className="booting" >
-            <p id="date-time"></p>
-            <div className="home-head">
-              <p>George Ruiz</p>
-              <p>Portfolio 2020</p>
-              {dateTime}
-            </div>
-            <div className="about-img">
-                <img alt="n/a" id="pixel-img" onLoad={imagePixelator()} src={me22} />
-              </div>
-            <div className="boot-up-info">
-                <p id="boot-text"></p>
-                <p id="grab-text"></p>
-                <p id="image-text"></p>
-                <p id='done-text'></p>
-                <Link to="/menu"><span id='home-button'></span></Link>
-              </div>  
-
-            </div>
-        )
+    
+    return(
+      <div className="booting" >
+        <audio  type="audio/mpeg" autoPlay >
+          <source src={ BootUpSound}></source>
+        </audio>
+        
+        <p id="date-time"></p>
+            
+        <div className="home-head">
+          <p>George Ruiz</p> <span id="home-img"><img height='150px' src={Energy} /></span>
+          <p>Portfolio 2020</p>
+          {dateTime}
+        </div>
+            
+        <div className="about-img">
+          <img alt="n/a" id="pixel-img" onLoad={imagePixelator()} src={me22} />
+        </div>
+         
+        <div className="boot-up-info">
+          <p id="boot-text"></p>
+          <p id="grab-text"></p>
+          <p id="image-text"></p>
+          <p id='done-text'></p>
+          <Link to="/menu"><span id='home-button'></span></Link>
+        </div>
+      </div>
+      )
     }
   }
     
-
-
-
-
 export default HomeComp

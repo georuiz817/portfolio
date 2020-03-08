@@ -35,25 +35,21 @@ const NavBar = () => {
     } 
     
     return (
-      
       <div className="Nav-Bar">
-        
         <Navbar className='Nav' bg="light">
-  
           <Link to='/menu'>
             <li>Menu</li>
           </Link>
       
-          <li>Edit</li>
-      
-          <li>Help</li>
+        <li>Edit</li>
+        <li>Help</li>
 
-          <form className="form-bar" onSubmit={handleSubmit}>
-            <input type="text" value={SearchLtr} placeholder="quick search" name="name" onChange={(e) => UpdateSearchLtr( e.target.value)}/>
-            <button id="button" type="submit"><span role='img' aria-label='glass'>🔎</span></button>
-          </form>
-        </Navbar>
-      </div>
+        <form className="form-bar" onSubmit={handleSubmit}>
+          <input type="text" value={SearchLtr} placeholder="quick search" name="name" onChange={(e) => UpdateSearchLtr( e.target.value)}/>
+          <button id="button" type="submit"><span role='img' aria-label='glass'>🔎</span></button>
+        </form>
+      </Navbar>
+    </div>
     )
   }
 

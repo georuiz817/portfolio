@@ -1,38 +1,38 @@
 html {
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-    min-width: 1000px;
-    min-height: 100px;
-    //border: 30px solid darkgray;
-    //border-style: inset;
-
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100px;
+	//border: 30px solid darkgray;
+	//border-style: inset;
 }
 
-body{
-color: lightgray;
-background-color: #0000a8;
-border: solid black 50px;
-margin: 0px;
-min-height: 100%;
-width: 100%;
-//font-family: lucida console;
+body {
+	color: lightgray;
+	background-color: #0000a8;
+	border: solid black 50px;
+	margin: 0px;
+	min-height: 100%;
+	width: 100%;
+	//font-family: lucida console;
+	.container {
+		text-overflow: auto;
+	}
 }
 
-.container{
-    text-overflow: auto; 
-}
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+	text-decoration: none;
+	color: black;
 }
 
-a:hover{
-    text-decoration: none;
-    color: black;
+a:hover {
+	text-decoration: none;
+	color: black;
 }
  
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -58,16 +58,26 @@ a:hover{
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
+.booting{
+    background-color: black;
+    border-color: black;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 15px;
+    border: 15px solid black
+}
 .boot-up-info {
-    margin-top: 30px;
-    p{
-        margin-bottom: -4px;
-    }
+	margin-top: 30px;
+	p {
+		margin-bottom: -4px;
+	}
 }
 
 .home-head p{
     margin-bottom: -5px;
+}
+
+#home-img{
+    float: right;
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -90,31 +100,29 @@ a:hover{
     max-width: 15%;
     .card-body:first-letter {
         color: red;
-      
-      }
     }
+}
 
-    .main-card{
-        float: right;
-        width: 70%;
-        background: #f0f0f0;
-        text-align: center;
-        color: black;
-        border-radius: 0%;
-        box-shadow: 10px 10px 5px black;
-        padding: 60px;
-    }
+.main-card{
+    float: right;
+    width: 70%;
+    background: #f0f0f0;
+    text-align: center;
+    color: black;
+    border-radius: 0%;
+    box-shadow: 10px 10px 5px black;
+    padding: 60px;
+}
     
-    #read-e{
-      color: red;
-  }
+#read-e{
+    color: red;
+}
 
  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .about p {
     font-size: 14px;
-   
-    }
+}
 
  
 .pre-tech-card{

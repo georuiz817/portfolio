@@ -12,9 +12,8 @@ body {
   margin: 0px;
   min-height: 100%;
   width: 100%; }
-
-.container {
-  text-overflow: auto; }
+  body .container {
+    text-overflow: auto; }
 
 a {
   text-decoration: none;
@@ -40,6 +39,16 @@ a:hover {
     height: 30px;
     margin-bottom: 20px; }
 
+.booting {
+  background-color: black;
+  border-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 15px;
+  border: 15px solid black; }
+
 .boot-up-info {
   margin-top: 30px; }
   .boot-up-info p {
@@ -47,6 +56,9 @@ a:hover {
 
 .home-head p {
   margin-bottom: -5px; }
+
+#home-img {
+  float: right; }
 
 .GOS {
   float: right;

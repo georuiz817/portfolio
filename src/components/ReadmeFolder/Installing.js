@@ -3,8 +3,8 @@ import React from 'react'
 
 const Installing = () => {
     return (
-        <div>
-      <h3>Installing</h3>
+      <div>
+        <h3>Installing</h3>
         <ul>
           <li>Git clone https://github.com/georuiz817/portfolio.git</li>
           <li>cd into portfolio</li>
@@ -12,8 +12,8 @@ const Installing = () => {
           <li>yarn start</li>
           <li>project will run on http://localhost:3000</li>
         </ul>
-        </div>
-    )
-}
+      </div>
+      )
+    }
 
 export default Installing
