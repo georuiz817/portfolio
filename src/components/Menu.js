@@ -20,7 +20,7 @@ const Menu = () => {
          <Card.Body className='main-card'>
             <h4>Welcome to the GOS Editor and Reader</h4>
             <p>I am George Ruiz. Full Stack Developer and graduate of Flatiron Scool.</p>
-            <p>Feel free to search around and play with some features.</p>
+            
          </Card.Body>
        
 

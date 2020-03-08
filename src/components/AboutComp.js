@@ -1,6 +1,6 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
+import { Container,Col,Row } from 'react-bootstrap';
 
 const AboutComp = () => {
 
@@ -15,7 +15,10 @@ const AboutComp = () => {
         
         <br></br>
 
+
         <Card className='pre-tech-card'> 
+        <Row>
+          <Col>
           <p><u>PRE-TECH</u></p>
           <p>After graduating with a Bachelors from Stony Brook in 2016, I started working in corporate 
             office environments. I was able to thrive in hands on experience with topics like team building, 
@@ -23,11 +26,16 @@ const AboutComp = () => {
             monotony of Insurance wasn't for me, I decided to start researching into other fields of business.
             When doing my research I had a few things in mind that needed to be required of the field. Creativity,
             spontanuity, and fun were all things I believed would spark my interest.</p> 
+            </Col>
+            <Col>
           <p>When given a suggestion that I should look into Web Development, I immediately started to do my 
             research. I completed every crediable course possible. Codecademy, Khan Academy, and Free Code Camp 
             were no exceptions. I decided at this point to take Web Development to the next level and 
             enroll in Flatiron School.</p>
+            </Col>
+            </Row>
         </Card>
+ 
 
 
         <Card className='pre-tech-card'> 
