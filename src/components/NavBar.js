@@ -22,8 +22,8 @@ const NavBar = () => {
         'https://ruizport.wordpress.com/',
         '_blank'  
         );
-      }else if (searchLogix === 'RE'){
-        history.push('/readme');
+      }else if (searchLogix === 'G'){
+        history.push('/games');
       } else if (searchLogix === 'R'){
         window.open(Resume, 
         '_blank'

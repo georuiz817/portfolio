@@ -5,7 +5,7 @@ import HomeComp from './components/HomeComp.js'
 import Menu from './components/Menu.js'
 import AboutComp from './components/AboutComp.js'
 import NavBar from './components/NavBar.js'
-import Readme from './components/ReadmeFolder/Readme'
+import GamesComp from './components/GamesComp'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route exact path='/' component={HomeComp} />
           <Route exact path="/about" component={AboutComp}/> 
           <Route exact path="/menu" component={Menu}/>
-          <Route exact path='/readme' component={Readme}/>
+          <Route exac path="/games" component={GamesComp}/>
         </Switch>
       </div>
     </Router>

@@ -39,7 +39,7 @@ class HomeComp extends Component {
         <p id="date-time"></p>
             
         <div className="home-head">
-          <p>George Ruiz</p> <span id="home-img"><img height='250px' src={Energy} /></span>
+          <p>George Ruiz</p> <span id="home-img"><img alt='N/A' height='250px' src={Energy} /></span>
           <p>Portfolio 2020</p>
           {dateTime}
         </div>
@@ -53,6 +53,7 @@ class HomeComp extends Component {
           <p id="grab-text"></p>
           <p id="image-text"></p>
           <p id='done-text'></p>
+          <br></br>
           <Link to="/menu"><span id='home-button'></span></Link>
         </div>
       </div>
