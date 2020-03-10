@@ -64,7 +64,7 @@ a:hover {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 25px;
     border: 15px solid black;
-    font-family: lucida console;
+    font-family: lucida console, Monaco5;
     font-size: small;
 }
 .boot-up-info {
@@ -130,11 +130,6 @@ a:hover {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-.about p {
-    font-size: 14px;
-}
-
- 
 .pre-tech-card{
     background: #f0f0f0;
     text-align: center;
@@ -146,3 +141,28 @@ a:hover {
     width: 500px;
 
 }
+
+.pre-tech-box{
+    border: double 5px white ;
+    padding: 10px;
+    color: white;
+}
+////////////////////////////////////////
+ .Error-Full{
+    background-color: black;
+    border-color: black;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 25px;
+    border: 15px solid black;
+    .Error-screen{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -100px;
+        background-color: red;
+        border: double yellow;
+        padding:2%;
+ 
+     }
+ }

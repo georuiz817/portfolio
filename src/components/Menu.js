@@ -18,9 +18,9 @@ const Menu = () => {
       </div>
       
          <div className='main-card'>
-               <h4>GOS</h4>
+               <h4>Welcome</h4>
                <hr></hr>
-               <p>Welcome! I am George Ruiz a Full Stack Developer and graduate of Flatiron School. 
+               <p>I am George Ruiz a Full Stack Developer and graduate of Flatiron School. 
                Please take a look around and play with any features. This site was inspired 
                by various MS-DOS systems. Click help to get information on the 
                search bar/additional info. If you want to see some projects 

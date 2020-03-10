@@ -6,20 +6,13 @@ const AboutComp = () => {
 
   return (
     <div className="about">
-      <Container>
         <Card className="cardEdit" > 
           <Card.Body>
             About...
           </Card.Body>
         </Card>
-        
         <br></br>
-
-
-    
-        <Row>
-          <Col>
-          <Card className='pre-tech-card'> 
+          <div className='pre-tech-box'>
           <p><u>PRE-TECH</u></p>
           <p>After graduating with a Bachelors from Stony Brook in 2016, I started working in corporate 
             office environments. I was able to thrive in hands on experience with topics like team building, 
@@ -27,26 +20,15 @@ const AboutComp = () => {
             monotony of Insurance wasn't for me, I decided to start researching into other fields of business.
             When doing my research I had a few things in mind that needed to be required of the field. Creativity,
             spontanuity, and fun were all things I believed would spark my interest.</p> 
-            </Card>
-            </Col>
-            <Col>
-            <Card className='pre-tech-card'> 
-          <p><u>Researching Development</u></p>
-          <p>When given a suggestion that I should look into Web Development, I immediately started to do my 
+            <p><u>RESEARCHING</u></p>
+            <p>When given a suggestion that I should look into Web Development, I immediately started to do my 
             research. I completed every credible course possible. Codecademy, Khan Academy, and Free Code Camp 
             were no exceptions. I decided at this point to take Web Development to the next level and 
             enroll in Flatiron School.</p>
-          <p>p.s for a good laugh at sites I novicly created pre Flatiron: </p>
-          <p><a href='https://codepen.io/RuizDev'>here</a></p>
-            </Card>
-            </Col>
-            </Row>
-  
- 
+            </div>
 
-
-        <Card className='pre-tech-card'> 
-          <p><u>TECH</u></p>
+            <div className='pre-tech-box'>
+            <p><u>TECH</u></p>
           <p>During Flatiron School I had the oppourtunity to engage in six months of team work, independent work, and 
             training on both Front and Back end development with tools like ruby/rails, JavaScript, SQL, HTML, CSS, React.js, Redux, etc.
             My time at Flatiron has given me the opportunity to display an array of exciting and even some 
@@ -60,8 +42,9 @@ const AboutComp = () => {
             the internet surfing for oppourtunities or studying blogs, podcast, articles, code challenges etc. My times is strictly put towards the 
             Development.
              </p>
-        </Card>
-      </Container>
+
+      </div>
+ 
     </div>
     )
   }
