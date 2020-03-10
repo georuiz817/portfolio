@@ -67,7 +67,9 @@ a:hover {
   float: right;
   width: 70%;
   margin-bottom: 3%;
-  color: lightblue; }
+  color: white;
+  border: double 5px white;
+  text-align: center; }
 
 .cardEdit {
   background: #f0f0f0;
@@ -83,14 +85,19 @@ a:hover {
     color: red; }
 
 .main-card {
+  text-align: center;
   float: right;
   width: 70%;
-  background: #f0f0f0;
-  text-align: center;
-  color: black;
+  background: blue;
+  color: white;
   border-radius: 0%;
-  box-shadow: 10px 10px 5px black;
-  padding: 60px; }
+  padding: 60px;
+  border: double 5px white; }
+  .main-card hr {
+    border-color: white;
+    width: 50%; }
+  .main-card p {
+    text-align: left; }
 
 .about p {
   font-size: 14px; }

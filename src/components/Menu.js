@@ -11,19 +11,23 @@ const Menu = () => {
    <div>
       <div className="GOS">
          <Typical
-            steps={['GOS', 1000, 'George-Operating-System', 500]}
+            steps={['George-Operating-System', 1000, 'Hand built with React, JSX, Sass', 1000]}
             loop={Infinity}
             wrapper="p"
          />
       </div>
       
-         <Card.Body className='main-card'>
-            <h4>Welcome to the GOS Editor and Reader</h4>
-            <p>I am George Ruiz. Full Stack Developer and graduate of Flatiron Scool.</p>
-            
-         </Card.Body>
-       
-
+         <div className='main-card'>
+               <h4>GOS</h4>
+               <hr></hr>
+               <p>Welcome! I am George Ruiz a Full Stack Developer and graduate of Flatiron School. 
+               Please take a look around and play with any features. This site was inspired 
+               by various MS-DOS systems. Click help to get information on the 
+               search bar/additional info. If you want to see some projects 
+               with images and descriptions, be sure to click on projects and be forwarded 
+               over to my WordPress powered projects page. </p>
+         </div>
+         
          <Card className='cardEdit' > 
             <Link to="/about">
                <Card.Body>
@@ -31,35 +35,6 @@ const Menu = () => {
                </Card.Body>
             </Link>
          </Card>
-  
-
-
-        <Card className='cardEdit' > 
-            <a href="https://ruizport.wordpress.com/" target="_blank" rel="noopener noreferrer">
-            <Card.Body>
-               Projects...  
-            </Card.Body>
-            </a>
-         </Card>
-
-
-         <Card className='cardEdit' >
-            <a href={Resume}>
-            <Card.Body>
-               Resume...
-            </Card.Body>
-             </a>
-          </Card>
-
-
-         <Card className='cardEdit' >
-            <a href="mailto:ruiz.fullstack@gmail.com">
-            <Card.Body>
-               Contact...
-            </Card.Body>
-            </a>
-         </Card>
-
 
          <Card className='cardEdit' >
             <Link to='/Games'>
@@ -67,6 +42,30 @@ const Menu = () => {
                   Games
                </Card.Body>
             </Link>
+         </Card>
+         
+         <Card className='cardEdit' > 
+            <a href="https://ruizport.wordpress.com/" target="_blank" rel="noopener noreferrer">
+            <Card.Body>
+               Projects...  
+            </Card.Body>
+            </a>
+         </Card>
+         
+         <Card className='cardEdit' >
+            <a href={Resume}>
+            <Card.Body>
+               Resume...
+            </Card.Body>
+             </a>
+          </Card>
+          
+          <Card className='cardEdit' >
+            <a href="mailto:ruiz.fullstack@gmail.com">
+            <Card.Body>
+               Contact...
+            </Card.Body>
+            </a>
          </Card>
    </div>
    )
