@@ -142,10 +142,12 @@ a:hover {
 
 }
 
-.pre-tech-box{
+.about-box{
     border: double 5px white ;
     padding: 10px;
     color: white;
+    display: inline;
+
 }
 ////////////////////////////////////////
  .Error-Full{
@@ -166,3 +168,65 @@ a:hover {
  
      }
  }
+
+ .about{
+     hr{
+        border-color: white;
+        width: 50%;
+        float: left ;
+     }
+}
+
+///////////////////////////////////////////////////////////////////////////
+.Edit-Comp{
+    border: double 5px black;
+    background-color: #adadad;
+     .edit-comp-header{
+        background-color: #ad00ad;
+        text-align: center;
+        margin-left:20%;
+        margin-right: 20%;
+        font-weight: bold;;
+        
+    }
+}
+
+.Color-Pal{
+    div{
+        display: inline-block;
+    }
+    p{
+        text-align: center;
+        color: black;
+    }
+}
+
+.orange-square{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+}
+
+.green-square{
+    height: 50px;
+    width: 50px;
+    background-color: #52ff51;
+}
+
+.pink-square{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+
+.yellow-square{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+
+.blue-square{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}

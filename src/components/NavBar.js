@@ -13,6 +13,7 @@ const NavBar = () => {
    const handleSubmit = (e) => {
     e.preventDefault();
     console.log({SearchLtr})
+   
     let searchLogix = SearchLtr.toUpperCase()
     
     if ( searchLogix === 'A'){
@@ -33,16 +34,24 @@ const NavBar = () => {
         );
       }
     } 
-    
+
+
     return (
       <div className="Nav-Bar">
+
+        
         <Navbar className='Nav' bg="light">
           <Link to='/menu'>
             <li>Menu</li>
           </Link>
       
+        <Link to='/edit'>
         <li>Edit</li>
+        </Link> 
+
+        <Link to='#'>
         <li>Help</li>
+        </Link>
 
         <form className="form-bar" onSubmit={handleSubmit}>
           <input type="text" value={SearchLtr} placeholder="quick search" name="name" onChange={(e) => UpdateSearchLtr( e.target.value)}/>
