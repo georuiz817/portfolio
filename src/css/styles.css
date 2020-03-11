@@ -6,7 +6,7 @@ html {
   min-height: 100px; }
 
 body {
-  color: lightgray;
+  color: white;
   background-color: blue;
   border: solid black 50px;
   margin: 0px;
@@ -64,7 +64,6 @@ a:hover {
   float: right;
   width: 70%;
   margin-bottom: 3%;
-  color: white;
   border: double 5px white;
   text-align: center; }
 
@@ -85,7 +84,6 @@ a:hover {
   text-align: center;
   float: right;
   width: 70%;
-  color: white;
   border-radius: 0%;
   padding: 60px;
   border: double 5px white; }
@@ -123,16 +121,15 @@ a:hover {
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -50px;
-    margin-left: -100px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background-color: red;
     border: double yellow;
     padding: 2%; }
 
 .Edit-Comp {
   border: double 5px black;
-  background-color: #adadad;
-  color: white; }
+  background-color: #adadad; }
   .Edit-Comp .edit-comp-header {
     background-color: #ad00ad;
     text-align: center;
