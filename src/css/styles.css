@@ -48,20 +48,17 @@ a:hover {
   bottom: 0;
   left: 25px;
   border: 15px solid black;
-  font-family: lucida console, Monaco5;
+  font-family: "Lucida Console", Monaco, monospace;
   font-size: small; }
-
-.boot-up-info {
-  margin-top: 30px; }
-  .boot-up-info p {
-    margin-bottom: -4px; }
-
-.home-head p {
-  margin-bottom: -5px; }
-
-#home-img {
-  float: right;
-  margin-top: -7%; }
+  .booting .boot-up-info {
+    margin-top: 30px; }
+    .booting .boot-up-info p {
+      margin-bottom: -4px; }
+  .booting .home-head p {
+    margin-bottom: -5px; }
+  .booting #home-img {
+    float: right;
+    margin-top: -7%; }
 
 .GOS {
   float: right;
@@ -88,7 +85,6 @@ a:hover {
   text-align: center;
   float: right;
   width: 70%;
-  background: blue;
   color: white;
   border-radius: 0%;
   padding: 60px;
@@ -99,7 +95,12 @@ a:hover {
   .main-card p {
     text-align: left; }
 
-.pre-tech-card {
+.about hr {
+  border-color: white;
+  width: 50%;
+  float: left; }
+
+.about .pre-tech-card {
   background: #f0f0f0;
   text-align: center;
   color: black;
@@ -108,12 +109,6 @@ a:hover {
   padding: 10px;
   margin-bottom: 25px;
   width: 500px; }
-
-.about-box {
-  border: double 5px white;
-  padding: 10px;
-  color: white;
-  display: inline; }
 
 .Error-Full {
   background-color: black;
@@ -134,49 +129,40 @@ a:hover {
     border: double yellow;
     padding: 2%; }
 
-.about hr {
-  border-color: white;
-  width: 50%;
-  float: left; }
-
 .Edit-Comp {
   border: double 5px black;
-  background-color: #adadad; }
+  background-color: #adadad;
+  color: white; }
   .Edit-Comp .edit-comp-header {
     background-color: #ad00ad;
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
     font-weight: bold; }
-
-.Color-Pal div {
-  display: inline-block; }
-
-.Color-Pal p {
-  text-align: center;
-  color: black; }
-
-.orange-square {
-  height: 50px;
-  width: 50px;
-  background-color: orange; }
-
-.green-square {
-  height: 50px;
-  width: 50px;
-  background-color: #52ff51; }
-
-.pink-square {
-  height: 50px;
-  width: 50px;
-  background-color: pink; }
-
-.yellow-square {
-  height: 50px;
-  width: 50px;
-  background-color: yellow; }
-
-.blue-square {
-  height: 50px;
-  width: 50px;
-  background-color: blue; }
+  .Edit-Comp .Color-Pal div {
+    display: inline-block; }
+  .Edit-Comp .Color-Pal p {
+    text-align: center;
+    color: black; }
+  .Edit-Comp .bg-color {
+    margin-left: 20%; }
+  .Edit-Comp .orange-square {
+    height: 50px;
+    width: 50px;
+    background-color: orange; }
+  .Edit-Comp .green-square {
+    height: 50px;
+    width: 50px;
+    background-color: #52ff51; }
+  .Edit-Comp .pink-square {
+    height: 50px;
+    width: 50px;
+    background-color: pink; }
+  .Edit-Comp .yellow-square {
+    height: 50px;
+    width: 50px;
+    background-color: yellow; }
+  .Edit-Comp .blue-square {
+    height: 50px;
+    width: 50px;
+    background-color: blue; }

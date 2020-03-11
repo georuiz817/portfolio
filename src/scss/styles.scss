@@ -15,7 +15,6 @@ body {
 	margin: 0px;
 	min-height: 100%;
 	width: 100%;
-	//font-family: lucida console;
 	.container {
 		text-overflow: auto;
 	}
@@ -64,23 +63,21 @@ a:hover {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 25px;
     border: 15px solid black;
-    font-family: lucida console, Monaco5;
+    font-family: "Lucida Console", Monaco, monospace;
     font-size: small;
-}
-.boot-up-info {
-	margin-top: 30px;
-	p {
-        margin-bottom: -4px;
+    .boot-up-info {
+        margin-top: 30px;
+        p {
+            margin-bottom: -4px;
+        }
     }
-}
-
-.home-head p{
-    margin-bottom: -5px;
-}
-
-#home-img{
-    float: right;
-    margin-top: -7%;
+    .home-head p{
+        margin-bottom: -5px;
+    }
+    #home-img{
+        float: right;
+        margin-top: -7%;
+    }
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -112,7 +109,6 @@ a:hover {
     text-align: center;
     float: right;
     width: 70%;
-    background:  blue;  // #f0f0f0;
     color: white;
     border-radius: 0%;
     //box-shadow: 10px 10px 5px black;
@@ -129,26 +125,25 @@ a:hover {
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-.pre-tech-card{
-    background: #f0f0f0;
-    text-align: center;
-    color: black;
-    border-radius: 0%;
-    box-shadow: 10px 10px 5px black;
-    padding: 10px;
-    margin-bottom: 25px;
-    width: 500px;
-
+.about{
+    hr{
+       border-color: white;
+       width: 50%;
+       float: left ;
+    }
+    .pre-tech-card{
+        background: #f0f0f0;
+        text-align: center;
+        color: black;
+        border-radius: 0%;
+        box-shadow: 10px 10px 5px black;
+        padding: 10px;
+        margin-bottom: 25px;
+        width: 500px;
+    
+    }
 }
 
-.about-box{
-    border: double 5px white ;
-    padding: 10px;
-    color: white;
-    display: inline;
-
-}
 ////////////////////////////////////////
  .Error-Full{
     background-color: black;
@@ -169,64 +164,64 @@ a:hover {
      }
  }
 
- .about{
-     hr{
-        border-color: white;
-        width: 50%;
-        float: left ;
-     }
-}
-
 ///////////////////////////////////////////////////////////////////////////
 .Edit-Comp{
     border: double 5px black;
     background-color: #adadad;
+    color: white;
      .edit-comp-header{
         background-color: #ad00ad;
         text-align: center;
         margin-left:20%;
         margin-right: 20%;
-        font-weight: bold;;
-        
+        font-weight: bold;    
+    }
+    .Color-Pal{
+        div{
+            display: inline-block;
+        }
+        p{
+            text-align: center;
+            color: black;
+        }
+    }
+    .bg-color{
+        margin-left: 20%;
+    }
+    .orange-square{
+        height: 50px;
+        width: 50px;
+        background-color: orange;
+    }
+    .green-square{
+        height: 50px;
+        width: 50px;
+        background-color: #52ff51;
+    }
+    .pink-square{
+        height: 50px;
+        width: 50px;
+        background-color: pink;
+    }
+    .yellow-square{
+        height: 50px;
+        width: 50px;
+        background-color: yellow;
+    }
+    .blue-square{
+        height: 50px;
+        width: 50px;
+        background-color: blue;
     }
 }
 
-.Color-Pal{
-    div{
-        display: inline-block;
-    }
-    p{
-        text-align: center;
-        color: black;
-    }
-}
+///////////////////////////////////////////////////////////////////////////
 
-.orange-square{
-    height: 50px;
-    width: 50px;
-    background-color: orange;
-}
 
-.green-square{
-    height: 50px;
-    width: 50px;
-    background-color: #52ff51;
-}
 
-.pink-square{
-    height: 50px;
-    width: 50px;
-    background-color: pink;
-}
 
-.yellow-square{
-    height: 50px;
-    width: 50px;
-    background-color: yellow;
-}
 
-.blue-square{
-    height: 50px;
-    width: 50px;
-    background-color: blue;
-}
+
+
+
+

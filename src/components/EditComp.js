@@ -7,6 +7,12 @@ const OrangeBack = () => {document.getElementsByTagName('body')[0].style.backgro
 const YellowBack = () => {document.getElementsByTagName('body')[0].style.backgroundColor = 'yellow'}
 const BlueBack = () => {document.getElementsByTagName('body')[0].style.backgroundColor = 'blue'}
 
+const Arial = () =>{document.getElementsByTagName('body')[0].style.fontFamily = 'Arial'}
+const Script = () =>{document.getElementsByTagName('body')[0].style.fontFamily = 'Brush Script MT, Brush Script Std, cursive'}
+const Console = () =>{document.getElementsByTagName('body')[0].style.fontFamily = '"Lucida Console", Monaco, monospace'}
+const Impact = () =>{document.getElementsByTagName('body')[0].style.fontFamily = 'Impact, Charcoal, sans-serif'}
+const Cursive = () =>{document.getElementsByTagName('body')[0].style.fontFamily = 'Apple Chancery, cursive'}
+
 const EditComp = () => {
 
   return (
@@ -16,23 +22,33 @@ const EditComp = () => {
           </div>
           
           <div className='Editor-row'>
-              <Row>
-                  <Col>
-                  <h2><u>Background Color:</u></h2>
-                  <div className='Color-Pal'>
-                  <div onClick={BlueBack} className='blue-square'></div>
-                  <div onClick={GreenBack} className="green-square"></div>
-                  <div onClick={OrangeBack} className="orange-square"></div>
-                  <div onClick={PinkBack} className="pink-square"></div>
-                  <div onClick={YellowBack} className='yellow-square'></div>
-                  </div>
-                  </Col>
+            <Row>
+              <Col className="bg-color">
+                <h2>Background Color</h2>
+                <div className='Color-Pal'>
+                <div onClick={BlueBack} className='blue-square'></div>
+                <div onClick={GreenBack} className="green-square"></div>
+                <div onClick={OrangeBack} className="orange-square"></div>
+                <div onClick={PinkBack} className="pink-square"></div>
+                <div onClick={YellowBack} className='yellow-square'></div>
+                </div>
+              </Col>
 
-                  <Col>
-                  <h2>Font-Family</h2>
-                  </Col>
+              
+
+              <Col>
+                <h2>Font-Family</h2>
+                <ul>
+                  <li><button onClick={Script}>Script</button></li>
+                  <li><button onClick={Console}>Console</button></li>
+                  <li><button onClick={Impact}>Impact</button></li>
+                  <li><button onClick={Arial}>Arial</button></li>
+                  <li><button onClick={Cursive}>Chalk Duster</button></li>
+                </ul>
+              </Col>
 
               </Row>
+              <p>Refresh to bring changes to default</p>
 
           </div>
     </div>

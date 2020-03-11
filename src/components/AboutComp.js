@@ -15,7 +15,7 @@ const AboutComp = () => {
         <br></br>
         <img src={me} alt='n/a'/>
         
-          <div className='about-box'>
+ 
    
           <h1><u>PRE-TECH</u></h1>
           <p>After graduating with a Bachelors from Stony Brook in 2016, I started working in corporate 
@@ -24,7 +24,7 @@ const AboutComp = () => {
             monotony of Insurance wasn't for me, I decided to start researching into other fields of business.
             When doing my research I had a few things in mind that needed to be required of the field. Creativity,
             spontanuity, and fun were all things I believed would spark my interest.</p> 
-         </div>
+ 
      
     </div>
     )
