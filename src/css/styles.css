@@ -108,6 +108,12 @@ a:hover {
   margin-bottom: 25px;
   width: 500px; }
 
+.about-block {
+  margin-left: -10%;
+  border: double 5px white;
+  padding: 1%;
+  font-size: small; }
+
 .Error-Full {
   background-color: black;
   border-color: black;
