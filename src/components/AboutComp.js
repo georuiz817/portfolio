@@ -2,24 +2,21 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import me_beer from '../photos/me_beer.jpg'
 import { Container, Col, Row } from 'react-bootstrap';
- 
+import oregon from '../photos/oregontrailme.png'
 
 const AboutComp = () => {
 
   return (
     <div className="about">
-    
-        <Card className="cardEdit" > 
-          <Card.Body>
-            About...
-          </Card.Body>
-        </Card>
-
+        
         <Container>
           <div className='about-cont'>
+          <img src={oregon} alt='n/a' width='100%' height='350px'/>
+          <br></br>
+          <br></br>
           <Row>
           <Col>
-            <img src={me_beer} alt='n/a' width='90%'/>
+            <img src={me_beer} alt='n/a'width='90%'/>
           </Col>
           
           <Col>

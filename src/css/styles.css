@@ -135,7 +135,8 @@ a:hover {
 
 .Edit-Comp {
   border: double 5px black;
-  background-color: #adadad; }
+  background-color: #adadad;
+  height: 100%; }
   .Edit-Comp .edit-comp-header {
     background-color: #ad00ad;
     text-align: center;
