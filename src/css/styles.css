@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 html {
   margin: 0px;
-  height: 100vh;
-  width: 100vw; }
+  height: 100%;
+  width: 100%;
+  min-width: 1000px;
+  min-height: 100px; }
 
 body {
   color: white;
   background-color: blue;
   border: solid black 50px;
   margin: 0px;
-  height: 100vh;
-  width: 100vw; }
+  min-height: 100%;
+  width: 100%; }
   body .container {
     text-overflow: auto; }
 

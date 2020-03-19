@@ -2,8 +2,10 @@
 
 html {
 	margin: 0px;
-    height: 100vh;//100% view height
-    width: 100vw;// 100% view width
+	height: 100%;
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100px;
 	//border: 30px solid darkgray;
 	//border-style: inset;
 }
@@ -13,12 +15,13 @@ body {
 	background-color:  blue;
 	border: solid black 50px;
 	margin: 0px;
-    height: 100vh;//100% view height
-    width: 100vw;// 100% view width
+	min-height: 100%;
+    width: 100%;
    .container {
 		text-overflow: auto;
 	}
 }
+
 
 
 
