@@ -1,18 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 html {
   margin: 0px;
-  height: 100%;
-  width: 100%;
-  min-width: 1000px;
-  min-height: 100px; }
+  height: 100vh;
+  width: 100vw; }
 
 body {
   color: white;
   background-color: blue;
   border: solid black 50px;
   margin: 0px;
-  min-height: 100%;
-  width: 100%; }
+  height: 100vh;
+  width: 100vw; }
   body .container {
     text-overflow: auto; }
 
@@ -86,7 +84,7 @@ a:hover {
   float: right;
   width: 70%;
   border-radius: 0%;
-  padding: 60px;
+  padding: 1%;
   border: double 5px white; }
   .main-card hr {
     border-color: white;
