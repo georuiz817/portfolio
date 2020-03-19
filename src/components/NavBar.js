@@ -23,8 +23,8 @@ const NavBar = () => {
         'https://ruizport.wordpress.com/',
         '_blank'  
         );
-      }else if (searchLogix === 'G'){
-        history.push('/games');
+      }else if (searchLogix === 'E'){
+        history.push('/edit');
       } else if (searchLogix === 'R'){
         window.open(Resume, 
         '_blank'
@@ -32,6 +32,8 @@ const NavBar = () => {
       }else if (searchLogix === 'C'){
         window.open("mailto:ruiz.fullstack@gmail.com"
         );
+      }else if (searchLogix ==='M'){
+        history.push('/menu');
       }
     } 
 

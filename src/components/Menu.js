@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Resume from '../Ruiz_Resume.pdf'
 import Typical from 'react-typical'
 import Card from 'react-bootstrap/Card'
-
+import { Col, Row } from 'react-bootstrap';
 
 const Menu = () => {
 
@@ -20,12 +20,22 @@ const Menu = () => {
          <div className='main-card'>
                <h4>Welcome</h4>
                <hr></hr>
-               <p>I am George Ruiz a Full Stack Developer and graduate of Flatiron School. 
+               <Row>
+                  <Col>
+                  <p>I am George Ruiz a Full Stack Developer and graduate of Flatiron School. 
                Please take a look around and play with any features. This site was inspired 
-               by various MS-DOS systems. Click help to get information on the 
-               search bar/additional info. If you want to see some projects 
-               with images and descriptions, be sure to click on projects and be forwarded 
-               over to my WordPress powered projects page. </p>
+               by various MS-DOS systems.</p>
+                  </Col>
+                  <Col>
+                  Click edit to change the Palette/font of the site. Feel free to also type in the red highlighted letters into the search bar to quickly jump to the page
+                  </Col>
+                  <Col>
+                  If you want to see some projects 
+                 with images and descriptions, be sure to click on projects and be forwarded 
+               over to my WordPress powered projects page. 
+                  </Col>
+               </Row>
+
          </div>
          
          <Card className='cardEdit' > 
@@ -36,14 +46,6 @@ const Menu = () => {
             </Link>
          </Card>
 
-         <Card className='cardEdit' >
-            <Link to='/Games'>
-               <Card.Body>
-                  Games
-               </Card.Body>
-            </Link>
-         </Card>
-         
          <Card className='cardEdit' > 
             <a href="https://ruizport.wordpress.com/" target="_blank" rel="noopener noreferrer">
             <Card.Body>

@@ -68,8 +68,8 @@ const AboutComp = () => {
             doubled my amount of projects I have to showcase and have learned some really exciting things along the way. Being able to add
             things like Sass and React Hooks to my skill set has made working with design and React based projects more enjoyable and diverse. 
             As well as having a better overall grip on Vanilla JS as I continue to practice algothirms and code challenges daily. Whether I'm on
-            the internet surfing for oppourtunities or studying blogs, podcast, articles, code challenges etc. My times is strictly put towards the 
-            Development.</p>
+            the internet surfing for oppourtunities or studying blogs, podcasts, articles, code challenges etc. My times is strictly put towards  
+            development.</p>
             </div>
         </Col>
         
