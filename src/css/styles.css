@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 html {
   margin: 0px;
   height: 100%;
@@ -108,11 +109,11 @@ a:hover {
   margin-bottom: 25px;
   width: 500px; }
 
-.about-block {
-  margin-left: -10%;
+.about-blocks {
   border: double 5px white;
   padding: 1%;
-  font-size: small; }
+  width: 100%;
+  height: 100%; }
 
 .Error-Full {
   background-color: black;
@@ -170,3 +171,17 @@ a:hover {
     height: 50px;
     width: 50px;
     background-color: blue; }
+
+#game-head {
+  font-size: 75px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: yellow; }
+
+.games-comp hr {
+  width: 200px;
+  border-color: white; }
+
+.desc-games {
+  border: double 5px white;
+  padding: 1%; }
