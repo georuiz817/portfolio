@@ -42,11 +42,8 @@ const AboutComp = () => {
             <h1>Generated A New Love</h1>
             <p>Tech in all forms</p>
             <hr></hr><br></br><br></br>
-            <p>During Flatiron School I had the oppourtunity to engage in six months of team work, independent work, and 
-            training on both Front and Back end development with tools like ruby/rails, JavaScript, SQL, HTML, CSS, React.js, Redux, etc.
-            My time at Flatiron has given me the opportunity to display an array of exciting and even some 
-            silly portfolio projects. Now being a tech grad, I'm ready to branch out into the development work force 
-            to assist a new business venture as well as bring new insight to an already flourishing one
+            <p>During Flatiron School I had the oppourtunity to work within an intensive training program designed to equip New Yorkers with the skills necessary to launch careers in web development. The program included roughly five months of intensive, full-time online training, including classes/lectures, individual, pair and group programming projects, code challenges, presentations and more. 
+            I was given the oppourtunity to have studied a variety of web development languages, frameworks, and libraries in-depth, including Ruby, Rails, Sinatra, Javascript, jQuery, SQL, ActiveRecord, Git, HTML, CSS and Bootstrap. As well as collaborated on project teams to develop and present a variety of web-based applications and build web development skills and efficiency.
             </p>
           </div>
         </Col>

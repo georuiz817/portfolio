@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Resume from '../Ruiz_Resume.pdf'
 import Typical from 'react-typical'
 import Card from 'react-bootstrap/Card'
-import { Col, Row } from 'react-bootstrap';
+import {Col, Row } from 'react-bootstrap';
 
 const Menu = () => {
 
@@ -22,17 +22,13 @@ const Menu = () => {
                <hr></hr>
                <Row>
                   <Col>
-                  <p>I am George Ruiz a Full Stack Developer and graduate of Flatiron School. 
-               Please take a look around and play with any features. This site was inspired 
-               by various MS-DOS systems.</p>
-                  </Col>
-                  <Col>
-                  Click edit to change the Palette/font of the site. Feel free to also type in the red highlighted letters into the search bar to quickly jump to the page
-                  </Col>
-                  <Col>
-                  If you want to see some projects 
-                 with images and descriptions, be sure to click on projects and be forwarded 
-               over to my WordPress powered projects page. 
+                  <p>I am George Ruiz a Full Stack Developer and recent graduate of Flatiron School.</p>
+                  <p>Click<strong> Edit</strong> on the toolbar above to make changes to the site. Feel free to also type in the red
+                     highlighted letters into the search bar to quickly jump to a selected page.
+                  </p>
+                  <p>If you want to see some work 
+                     with images and descriptions, be sure to click on projects and be forwarded over to my WordPress powered projects page. 
+                  </p>
                   </Col>
                </Row>
 
