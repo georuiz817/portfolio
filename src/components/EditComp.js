@@ -5,34 +5,25 @@ import EditHelpers from './EditHelpers'
 const EditComp = () => {
   return (
       <div className='Edit-Comp'>
+
           <div className='edit-comp-header'>
             <p>Edit Form</p>
           </div>
-          
-          <div className='Editor-row'>
+
             <Row>
-              <Col className="bg-color">
+              <Col>
                 <h2>Background Color</h2>
-                <div className='Color-Pal'>
-                <div onClick={EditHelpers.BlueBack} className='blue-square'></div>
-                <div onClick={EditHelpers.GreenBack} className="green-square"></div>
-                <div onClick={EditHelpers.OrangeBack} className="orange-square"></div>
-                <div onClick={EditHelpers.PinkBack} className="pink-square"></div>
-                <div onClick={EditHelpers.YellowBack} className='yellow-square'></div>
-                </div>
-            </Col>
+                  <input type="color" className="ColorPickerName" />
+                  <br></br>
+                  <button onClick={EditHelpers.ColorChange}>Change</button>
+             </Col>
 
               <Col>
-              <h2>Font Color</h2>
-                <div className='Color-Pal'>
-                <div onClick={EditHelpers.BlueFont} className='blue-square'></div>
-                <div onClick={EditHelpers.GreenFont} className="green-square"></div>
-                <div onClick={EditHelpers.OrangeFont} className="orange-square"></div>
-                <div onClick={EditHelpers.PinkFont} className="pink-square"></div>
-                <div onClick={EditHelpers.YellowFont} className='yellow-square'></div>
-                </div>
-              
-              </Col>
+                <h2>Font Color</h2>
+                  <input type='color' className="FontColorInput"/>
+                  <br></br>
+                  <button onClick={EditHelpers.FontChange}>Change</button>
+             </Col>
 
               
               <Col>
@@ -48,17 +39,14 @@ const EditComp = () => {
 
               <Col>
               <h2>Cursor</h2>
-              <li><button onClick={EditHelpers.crossHair}>Cross Hair</button></li>
+              <li><button onClick={EditHelpers.CrossHair}>Cross Hair</button></li>
               <li><button onClick={EditHelpers.cell}>Cell</button></li>
               <li><button onClick={EditHelpers.original}>default</button></li>
               </Col>
 
               </Row>
               <p>Refresh to bring changes to default</p>
-
-          </div>
-          
-    </div>
+      </div>
    )
   }
 

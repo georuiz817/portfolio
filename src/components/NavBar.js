@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useHistory } from 'react-router';
 import Resume from '../Ruiz_Resume.pdf';
 import Navbar from 'react-bootstrap/Navbar'
- 
+import Clock from 'react-live-clock'
 
 const NavBar = () => {
 
@@ -51,14 +51,14 @@ const NavBar = () => {
         <li>Edit</li>
         </Link> 
 
-        <Link to='#'>
-        <li>Help</li>
-        </Link>
-
         <form className="form-bar" onSubmit={handleSubmit}>
           <input type="text" value={SearchLtr} placeholder="quick search" name="name" onChange={(e) => UpdateSearchLtr( e.target.value)}/>
           <button id="button" type="submit"><span role='img' aria-label='glass'>🔎</span></button>
         </form>
+      
+      <div className='clocky'>
+        <Clock  format={'HH:mm:ss'} ticking={true} timezone={'US/Eastern'} />
+      </div>
       </Navbar>
     </div>
     )

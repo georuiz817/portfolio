@@ -9,6 +9,7 @@ const Menu = () => {
 
   return (
    <div>
+  
       <div className="GOS">
          <Typical
             steps={['George-Operating-System', 1000, 'Hand built with React, JSX, Sass', 1000]}
@@ -65,7 +66,7 @@ const Menu = () => {
             </Card.Body>
             </a>
          </Card>
-   </div>
+  </div>
    )
 }
 

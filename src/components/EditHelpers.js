@@ -1,36 +1,4 @@
 const EditHelpers = {
-    /////////////////////////////////////////////////////////////////////////////Backgrounds
-    PinkBack: function(){
-        document.getElementsByTagName('body')[0].style.backgroundColor = 'pink'
-    },
-    OrangeBack: function(){
-        document.getElementsByTagName('body')[0].style.backgroundColor = 'green'
-    },
-    GreenBack: function(){
-        document.getElementsByTagName('body')[0].style.backgroundColor = 'orange'
-    },
-    YellowBack: function(){
-        document.getElementsByTagName('body')[0].style.backgroundColor = 'yellow'
-    },
-    BlueBack: function(param1){
-        document.getElementsByTagName('body')[0].style.backgroundColor = 'blue'
-    },
-    //////////////////////////////////////////////////////////////////////////////Fonts
-    PinkFont: function(){
-        document.getElementsByTagName('body')[0].style.color = 'pink'
-    },
-    GreenFont: function(){
-        document.getElementsByTagName('body')[0].style.color = 'green'
-    },
-    OrangeFont: function(){
-        document.getElementsByTagName('body')[0].style.color = 'orange'
-    },
-    YellowFont: function(){
-        document.getElementsByTagName('body')[0].style.color = 'yellow'
-    },
-    BlueFont: function(param1){
-        document.getElementsByTagName('body')[0].style.color = 'blue'
-    },
     ///////////////////////////////////////////////////////////////////////////////font-family
     Arial: function(){
         document.getElementsByTagName('body')[0].style.fontFamily = 'Arial'
@@ -57,6 +25,14 @@ const EditHelpers = {
     original: function(param1){
         document.getElementsByTagName('body')[0].style.cursor = 'default'
     },
+    ////////////////////////////////////////////////////colors
+    ColorChange: function(){
+    document.getElementsByTagName("body")[0].style.backgroundColor = document.getElementsByClassName("ColorPickerName")[0].value;
+    },
+    FontChange: function(){
+        document.getElementsByTagName("body")[0].style.color = document.getElementsByClassName("FontColorInput")[0].value;
+    },
+    
 }
 
 export default EditHelpers;

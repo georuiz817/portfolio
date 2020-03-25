@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Col, Row } from 'react-bootstrap';
+import {Col, Row } from 'react-bootstrap';
 import oregon from '../photos/oregontrailme.png'
 import stony from '../photos/stonyb.jpg'
 import cert from '../photos/cert.jpg'
@@ -9,7 +9,6 @@ const AboutComp = () => {
 
   return (
   <div className="about">
-    <Container>
       <img src={oregon} alt='n/a' width='100%' height='300px'/>
       <br></br>
       <br></br>
@@ -75,7 +74,6 @@ const AboutComp = () => {
         </Col>
       </Row>
 
-    </Container>
     <br></br>
   </div>
   )

@@ -15,14 +15,7 @@ body {
 	margin: 0px;
 	min-height: 100%;
     width: 100%;
-    
-   .container {
-		text-overflow: auto;
-	}
 }
-
-
-
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -55,8 +48,12 @@ a:hover {
         height: 30px;
         margin-bottom: 20px;
     }
-
 }
+
+.clocky{
+    position: absolute;  
+    right: 0px;
+ }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .booting{
@@ -174,47 +171,8 @@ a:hover {
         margin-right: 20%;
         font-weight: bold;    
     }
-    .Color-Pal{
-        div{
-            display: inline-block;
-        }
-        p{
-            text-align: center;
-            color: black;
-        }
-    }
-    .bg-color{
-        margin-left: 5%;
-    }
-    .orange-square{
-        height: 30px;
-        width: 30px;
-        background-color: orange;
-    }
-    .green-square{
-        height: 30px;
-        width: 30px;
-        background-color: #52ff51;
-    }
-    .pink-square{
-        height: 30px;
-        width: 30px;
-        background-color: pink;
-    }
-    .yellow-square{
-        height: 30px;
-        width: 30px;
-        background-color: yellow;
-    }
-    .blue-square{
-        height: 30px;
-        width: 30px;
-        background-color: blue;
-    }
 }
 
 ///////////////////////////////////////////////////////////////////////////
-
-
 
 

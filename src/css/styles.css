@@ -11,8 +11,6 @@ body {
   margin: 0px;
   min-height: 100%;
   width: 100%; }
-  body .container {
-    text-overflow: auto; }
 
 a {
   text-decoration: none;
@@ -37,6 +35,10 @@ a:hover {
   .Nav-Bar .Nav {
     height: 30px;
     margin-bottom: 20px; }
+
+.clocky {
+  position: absolute;
+  right: 0px; }
 
 .booting {
   background-color: black;
@@ -132,30 +134,3 @@ a:hover {
     margin-left: 20%;
     margin-right: 20%;
     font-weight: bold; }
-  .Edit-Comp .Color-Pal div {
-    display: inline-block; }
-  .Edit-Comp .Color-Pal p {
-    text-align: center;
-    color: black; }
-  .Edit-Comp .bg-color {
-    margin-left: 5%; }
-  .Edit-Comp .orange-square {
-    height: 30px;
-    width: 30px;
-    background-color: orange; }
-  .Edit-Comp .green-square {
-    height: 30px;
-    width: 30px;
-    background-color: #52ff51; }
-  .Edit-Comp .pink-square {
-    height: 30px;
-    width: 30px;
-    background-color: pink; }
-  .Edit-Comp .yellow-square {
-    height: 30px;
-    width: 30px;
-    background-color: yellow; }
-  .Edit-Comp .blue-square {
-    height: 30px;
-    width: 30px;
-    background-color: blue; }
