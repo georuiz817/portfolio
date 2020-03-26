@@ -1,10 +1,10 @@
 import React from 'react'
-import {Col, Row } from 'react-bootstrap';
+import {Container, Col, Row } from 'react-bootstrap';
 import EditHelpers from './EditHelpers'
 
 const EditComp = () => {
   return (
-      <div className='Edit-Comp'>
+      <Container className='Edit-Comp'> 
 
           <div className='edit-comp-header'>
             <p>Edit Form</p>
@@ -46,7 +46,7 @@ const EditComp = () => {
 
               </Row>
               <p>Refresh to bring changes to default</p>
-      </div>
+      </Container>
    )
   }
 

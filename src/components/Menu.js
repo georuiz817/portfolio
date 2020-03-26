@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import Resume from '../Ruiz_Resume.pdf'
 import Typical from 'react-typical'
 import Card from 'react-bootstrap/Card'
-import {Col, Row } from 'react-bootstrap';
+import {Container, Col, Row } from 'react-bootstrap';
 
 const Menu = () => {
 
   return (
-   <div>
+   <Container>
   
       <div className="GOS">
          <Typical
@@ -66,7 +66,7 @@ const Menu = () => {
             </Card.Body>
             </a>
          </Card>
-  </div>
+  </Container>
    )
 }
 
