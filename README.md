@@ -8,8 +8,8 @@ View directly here: https://ruiz-dev.herokuapp.com/
 
 ## Prerequisites (local install)
 
-• React
-• yarn
+• React  
+• yarn  
 
 ## Installing  
 
