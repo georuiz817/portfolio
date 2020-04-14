@@ -1,39 +1,33 @@
-GOS
+![Image description](/portimg.png)  
 
-My portoflio with links, features, and information about me.
-Getting Started
+## Personal Portoflio
 
-This project runs on heroku so theirs nothing you'll need to do. Just sit back and enjoy.
+My portoflio with links, features, and information about me. Inspired by DOS/Windows 90's systems. 
 
-However, if you're cloning the project to run on your local machine please follow the instructions below.
+View directly here: https://ruiz-dev.herokuapp.com/  
 
-Prerequisites
+## Prerequisites (local install)
 
-    React
-    yarn
+• React
+• yarn
 
-Installing
+## Installing  
 
-    Git clone https://github.com/georuiz817/portfolio.git
-    cd into portfolio
-    yarn install
-    yarn start
-    project will run on http://localhost:3000
-
-Built With
-
-    Web Framework - JavaScript/React (hooks for state)
-    Design/css preprocessor -  React Boostrap/Sass
-    Package Manager: Yarn
-
-Authors
-
-George Ruiz - Full Stack Web Developer
-
-/////////////////////////////////////////////////////////////////////////////////////////////////
+• Git clone https://github.com/georuiz817/portfolio.git  
+• cd into project  
+• yarn start  
+• project will run on http://localhost:3000  
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Built With
+
+• JavaScript/React (hooks for state)  
+• React Boostrap/Sass
+• Yarn  
+
+## Authors  
+
+• George Ruiz - Full Stack Web Developer  
 
 ## Available Scripts
 
