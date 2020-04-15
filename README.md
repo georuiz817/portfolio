@@ -1,4 +1,4 @@
-![Image description](/portimg.png)  
+<img src="/portimg.png" width="23%"></img> <img src="/ReadMeImgs/LoadingScreen.png" width="23%"></img> <img src="/ReadMe/Imgs/EditPage.png" width="23%"></img> <img src="/ReadMeImgs/AboutPage.png" width="23%"></img>       
 
 ## Personal Portoflio
 
@@ -22,7 +22,7 @@ View directly here: https://ruiz-dev.herokuapp.com/
 ## Built With
 
 • JavaScript/React (hooks for state)  
-• React Boostrap/Sass
+• React Boostrap/Sass  
 • Yarn  
 
 ## Authors  
