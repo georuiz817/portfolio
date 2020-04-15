@@ -1,4 +1,4 @@
-<img src="/portimg.png" width="23%"></img> <img src="/ReadMeImgs/LoadingScreen.png" width="23%"></img> <img src="/ReadMe/Imgs/EditPage.png" width="23%"></img> <img src="/ReadMeImgs/AboutPage.png" width="23%"></img>       
+<img src="/portimg.png" width="30%"></img> <img src="/ReadMeImgs/LoadingScreen.png" width="30%"></img> <img src="/ReadMe/Imgs/EditPage.png" width="30%"></img> <img src="/ReadMeImgs/AboutPage.png" width="30%"></img>       
 
 ## Personal Portoflio
 
