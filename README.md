@@ -1,4 +1,4 @@
-<img src="/portimg.png" height='100%' width="30%"></img> <img src="/ReadMeImgs/LoadingScreen.png" height='100%' width="30%"></img> <img src="/ReadMeImgs/EditPage.png" width="30%"></img> <img src="/ReadMeImgs/AboutPage.png" height='100%' width="30%"></img>       
+![Image description](/portimg.png)    
 
 ## Personal Portoflio
 
