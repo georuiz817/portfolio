@@ -1,0 +1,26 @@
+$base-color: black;
+$secondary-base-color: white;
+
+html{
+    background-color: $base-color;
+}
+
+body {
+    color: $secondary-base-color;
+	background-color:  blue;
+	border: solid $base-color 50px;
+	margin: 0px;
+	height: 100%;
+    width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: $base-color;
+}
+
+a:hover {
+	text-decoration: none;
+	color: $base-color;
+}
+ 

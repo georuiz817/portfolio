@@ -1,0 +1,26 @@
+$base-color: black;
+$secondary-base-color: white;
+
+.Nav-Bar{
+    text-decoration: none;
+    color:$base-color;
+    background-color: #d3d3d3;
+    display: inline;
+    ul {
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+    }
+      li  {
+        color: $base-color;
+        display: inline;
+        margin-right: 30px;
+    }.Nav{
+        height: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+.clocky{
+    position: absolute;  
+    right: 0px;
+ }

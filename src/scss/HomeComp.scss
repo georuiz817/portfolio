@@ -1,0 +1,27 @@
+$base-color: black;
+$secondary-base-color: white;
+
+.booting{
+    height: 100%; ;
+    height: 100%; ;
+    background-color: $base-color;
+    border-color: $base-color;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    border: 15px solid $base-color;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: small; 
+    .boot-up-info {
+        margin-top: 30px;
+        p {
+            margin-bottom: -4px;
+        }
+    }
+    .home-head p{
+        margin-bottom: -5px;
+    }
+    #home-img{
+        float: right;
+        margin-top: -7%;
+    }
+}

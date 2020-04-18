@@ -14,7 +14,7 @@ const AboutComp = () => {
       <br></br>
       
       <Row>
-        <Col>
+        <Col sm={6}>
           <div className='about-blocks'>
             <h1>Pre Tech</h1>
             <p>Stony Brook Graduate, Insurance career</p>
@@ -29,14 +29,14 @@ const AboutComp = () => {
           </div>
         </Col>
         
-        <Col>
+        <Col sm={6}>
           <img src={stony} width='100%' height='100%' alt='n/a'/>
         </Col>
       </Row>
       <br></br>
           
       <Row>
-        <Col>
+        <Col sm={6}>
           <div className='about-blocks'>
             <h1>Generated A New Love</h1>
             <p>Tech in all forms</p>
@@ -47,14 +47,14 @@ const AboutComp = () => {
           </div>
         </Col>
             
-        <Col>
+        <Col sm={6}>
           <img src={cert}  height='100%' alt='n/a' width='100%' />
         </Col>
       </Row>
       <br></br>
       
       <Row>
-        <Col>
+        <Col sm={6}>
           <div className='about-blocks'>
             <h1>Where I am now</h1>
             <p>Constantly learning, career seeking, and building</p>
@@ -69,7 +69,7 @@ const AboutComp = () => {
             </div>
         </Col>
         
-        <Col>
+        <Col sm={6}>
           <img src={wp} alt='n/a' height='100%' width='100%'/>
         </Col>
       </Row>

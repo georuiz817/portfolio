@@ -51,7 +51,7 @@ const NavBar = () => {
         <li>Edit</li>
         </Link> 
 
-        <form className="form-bar" onSubmit={handleSubmit}>
+        <form class='search-bar' className="form-bar" onSubmit={handleSubmit}>
           <input type="text" value={SearchLtr} placeholder="quick search" name="name" onChange={(e) => UpdateSearchLtr( e.target.value)}/>
           <button id="button" type="submit"><span role='img' aria-label='glass'>🔎</span></button>
         </form>

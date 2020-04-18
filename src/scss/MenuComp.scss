@@ -1,0 +1,42 @@
+$base-color: black;
+$secondary-base-color: white;
+
+.GOS{
+    float: right;
+    width: 70%;
+    margin-bottom: 3%;
+    border: double 5px $secondary-base-color ;
+    text-align: center;
+}
+
+.cardEdit {
+    background: #f0f0f0;
+    width: 15%;
+    text-align: center;
+    color: $base-color;
+    box-shadow: 10px 10px 5px $base-color;
+    margin-bottom: 2%;
+    border-radius: 0%;
+    display: block;
+    max-width: 15%;
+    .card-body:first-letter {
+        color: red;
+    }
+}
+
+.main-card{
+    text-align: center;
+    float: right;
+    width: 70%;
+    border-radius: 0%;
+    //box-shadow: 10px 10px 5px black;
+    padding: 1%;
+    border: double 5px $secondary-base-color ;
+    hr{
+       border-color: $secondary-base-color;
+       width: 50%;
+    }
+    p{
+        text-align: left; 
+     }
+}

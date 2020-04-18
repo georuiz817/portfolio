@@ -12,7 +12,6 @@ function App() {
   return (
     <Router>
       <NavBar/>
-      <div className="container">
         <Switch>
           <Route exact path='/' component={HomeComp} />
           <Route exact path="/about" component={AboutComp}/> 
@@ -20,7 +19,6 @@ function App() {
           <Route exact path="/edit" component={EditComp}/>
           <Route component={ErrorComp} />
         </Switch>
-      </div>
     </Router>
   );
 }

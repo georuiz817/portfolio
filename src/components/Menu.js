@@ -9,7 +9,7 @@ const Menu = () => {
 
   return (
    <Container>
-  
+      
       <div className="GOS">
          <Typical
             steps={['George-Operating-System', 1000, 'Hand built with React, JSX, Sass', 1000]}

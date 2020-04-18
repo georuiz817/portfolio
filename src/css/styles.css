@@ -1,22 +1,25 @@
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
-html {
-  background-color: black; }
-
-body {
-  color: white;
-  background-color: blue;
-  border: solid black 50px;
-  margin: 0px;
+.booting {
   height: 100%;
-  width: 100%; }
-
-a {
-  text-decoration: none;
-  color: black; }
-
-a:hover {
-  text-decoration: none;
-  color: black; }
+  height: 100%;
+  background-color: black;
+  border-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 15px solid black;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: small; }
+  .booting .boot-up-info {
+    margin-top: 30px; }
+    .booting .boot-up-info p {
+      margin-bottom: -4px; }
+  .booting .home-head p {
+    margin-bottom: -5px; }
+  .booting #home-img {
+    float: right;
+    margin-top: -7%; }
 
 .Nav-Bar {
   text-decoration: none;
@@ -37,29 +40,6 @@ a:hover {
 .clocky {
   position: absolute;
   right: 0px; }
-
-.booting {
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  border-color: black;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border: 15px solid black;
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: small; }
-  .booting .boot-up-info {
-    margin-top: 30px; }
-    .booting .boot-up-info p {
-      margin-bottom: -4px; }
-  .booting .home-head p {
-    margin-bottom: -5px; }
-  .booting #home-img {
-    float: right;
-    margin-top: -7%; }
 
 .GOS {
   float: right;
@@ -94,6 +74,17 @@ a:hover {
   .main-card p {
     text-align: left; }
 
+.Edit-Comp {
+  border: double 5px black;
+  background-color: #adadad;
+  margin-bottom: 3%; }
+  .Edit-Comp .edit-comp-header {
+    background-color: #ad00ad;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bold; }
+
 .about hr {
   border-color: white;
   width: 50%;
@@ -124,13 +115,21 @@ a:hover {
     border: double yellow;
     padding: 2%; }
 
-.Edit-Comp {
-  border: double 5px black;
-  background-color: #adadad;
-  margin-bottom: 3%; }
-  .Edit-Comp .edit-comp-header {
-    background-color: #ad00ad;
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-weight: bold; }
+html {
+  background-color: black; }
+
+body {
+  color: white;
+  background-color: blue;
+  border: solid black 50px;
+  margin: 0px;
+  height: 100%;
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  text-decoration: none;
+  color: black; }

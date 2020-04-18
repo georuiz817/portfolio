@@ -1,0 +1,20 @@
+$base-color: black;
+$secondary-base-color: white;
+
+.Error-Full{
+    background-color: $base-color;
+    border-color: $base-color;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 25px;
+    border: 15px solid $base-color;
+    .Error-screen{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background-color: red;
+        border: double yellow;
+        padding:2%;
+    }
+ }
