@@ -5,11 +5,21 @@ $secondary-base-color: white;
     border: double 5px $base-color;
     background-color: #adadad;
     margin-bottom: 3%;
+    list-style-type: none;
      .edit-comp-header{
         background-color: #ad00ad;
         text-align: center;
         margin-left:20%;
         margin-right: 20%;
         font-weight: bold;    
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .edit-col{
+        border-bottom: black thin solid;
+        margin-bottom: 1%;
+        padding: 1%;
     }
 }
