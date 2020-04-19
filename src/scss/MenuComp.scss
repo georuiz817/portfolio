@@ -36,3 +36,13 @@ $secondary-base-color: white;
         text-align: left; 
      }
 }
+
+//when the screen was getting small with  bootstrap the cards were staying inline block but with of 50% so it was just
+// 4 seperate rows with cards only taking up half the screen, used the media query to get 2 in each row. 2 rows of 2.
+@media only screen and (max-width: 600px) {
+    .cardEdit {
+    width: 50%;
+    display: inline-block;
+    border-right: blue thin solid;
+    }
+  }

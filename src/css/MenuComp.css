@@ -1,0 +1,34 @@
+.GOS {
+  width: 100%;
+  margin-bottom: 3%;
+  border: double 5px white;
+  text-align: center; }
+
+.cardEdit {
+  background: #f0f0f0;
+  text-align: center;
+  color: black;
+  width: 50%;
+  box-shadow: 10px 10px 5px black;
+  margin-bottom: 5%;
+  border-radius: 0%;
+  display: block; }
+  .cardEdit .card-body:first-letter {
+    color: red; }
+
+.main-card {
+  text-align: center;
+  border-radius: 0%;
+  padding: 1%;
+  border: double 5px white; }
+  .main-card hr {
+    border-color: white;
+    width: 50%; }
+  .main-card p {
+    text-align: left; }
+
+@media only screen and (max-width: 600px) {
+  .cardEdit {
+    width: 50%;
+    display: inline-block;
+    border-right: blue thin solid; } }

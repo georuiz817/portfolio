@@ -75,6 +75,12 @@
   .main-card p {
     text-align: left; }
 
+@media only screen and (max-width: 600px) {
+  .cardEdit {
+    width: 50%;
+    display: inline-block;
+    border-right: blue thin solid; } }
+
 .Edit-Comp {
   border: double 5px black;
   background-color: #adadad;
