@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 @import 'HomeComp.scss';
 @import 'NavBar.scss';
 @import 'MenuComp.scss';
@@ -8,3 +10,6 @@
 
 //importing all our scss files into this 'combineScss' file I will call it since we are in a React mindset 
 
+body{
+    font-family: 'Roboto', sans-serif;
+}

@@ -43,7 +43,7 @@ const Menu = () => {
          <Col sm={8}>
             <div className="GOS">
                <Typical
-               steps={['George-Operating-System', 1000, 'Hand built with React, JSX, Sass', 1000]}
+               steps={['George-Operating-System', 1000, 'Hand built with React, Bootstrap and Sass', 1000]}
                loop={Infinity}
                wrapper="p"
                />
