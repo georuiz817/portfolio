@@ -13,9 +13,7 @@ const NavBar = () => {
    const handleSubmit = (e) => {
     e.preventDefault();
     console.log({SearchLtr})
-   
     let searchLogix = SearchLtr.toUpperCase()
-    
     if ( searchLogix === 'A'){
       history.push('/about');
     } else if (searchLogix === 'P'){
@@ -37,32 +35,24 @@ const NavBar = () => {
       }
     } 
 
-
     return (
       <div className="Nav-Bar">
-
-        
         <Navbar className='Nav' bg="light">
-          <Link to='/menu'>
+            <Link to='/menu'>
             <li>Menu</li>
-          </Link>
-      
-        <Link to='/edit'>
-        <li>Edit</li>
-        </Link> 
-
-        <form class='search-bar' className="form-bar" onSubmit={handleSubmit}>
-          <input type="text" value={SearchLtr} placeholder="quick search" name="name" onChange={(e) => UpdateSearchLtr( e.target.value)}/>
-          <button id="button" type="submit"><span role='img' aria-label='glass'>🔎</span></button>
-        </form>
-      
-      <div className='clocky'>
-        <Clock  format={'HH:mm:ss'} ticking={true} timezone={'US/Eastern'} />
+            </Link>
+            <Link to='/edit'>
+            <li>Edit</li>
+            </Link> 
+            <form className="form-bar" onSubmit={handleSubmit}>
+              <input className="form-bar" type="text" value={SearchLtr} placeholder="quick search" name="name" onChange={(e) => UpdateSearchLtr( e.target.value)}/>
+              <button className="form-bar" id="button" type="submit"><span role='img' aria-label='glass'>🔎</span></button>
+            </form>
+            <Clock className='clocky' format={'HH:mm:ss'} ticking={true} timezone={'US/Eastern'} />
+        </Navbar>
       </div>
-      </Navbar>
-    </div>
-    )
-  }
+        )
+      }
 
 
 export default NavBar

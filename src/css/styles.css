@@ -22,13 +22,9 @@
     margin-top: -7%; }
 
 .Nav-Bar {
-  text-decoration: none;
   color: black;
   background-color: #d3d3d3;
   display: inline; }
-  .Nav-Bar ul {
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3; }
   .Nav-Bar li {
     color: black;
     display: inline;
@@ -40,6 +36,13 @@
 .clocky {
   position: absolute;
   right: 0px; }
+
+@media only screen and (max-width: 600px) {
+  .form-bar {
+    width: 50%;
+    font-size: 70%; }
+  #button {
+    width: 30%; } }
 
 .GOS {
   float: right;
