@@ -1,9 +1,8 @@
 $base-color: black;
 $secondary-base-color: white;
 
-.GOS{
-    float: right;
-    width: 70%;
+ .GOS{
+    width: 100%;
     margin-bottom: 3%;
     border: double 5px $secondary-base-color ;
     text-align: center;
@@ -11,14 +10,13 @@ $secondary-base-color: white;
 
 .cardEdit {
     background: #f0f0f0;
-    width: 15%;
     text-align: center;
     color: $base-color;
+    width: 50%;
     box-shadow: 10px 10px 5px $base-color;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     border-radius: 0%;
     display: block;
-    max-width: 15%;
     .card-body:first-letter {
         color: red;
     }
@@ -26,8 +24,6 @@ $secondary-base-color: white;
 
 .main-card{
     text-align: center;
-    float: right;
-    width: 70%;
     border-radius: 0%;
     //box-shadow: 10px 10px 5px black;
     padding: 1%;
