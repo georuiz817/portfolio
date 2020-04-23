@@ -39,10 +39,10 @@ const NavBar = () => {
       <div className="Nav-Bar">
         <Navbar className='Nav' bg="light">
             <Link to='/menu'>
-            <li>Menu</li>
+            <li><span className='red-col'>M</span>enu</li>
             </Link>
             <Link to='/edit'>
-            <li>Edit</li>
+            <li><span className='red-col'>E</span>dit</li>
             </Link> 
             <form className="form-bar" onSubmit={handleSubmit}>
               <input className="form-bar" type="text" value={SearchLtr} placeholder="quick search" name="name" onChange={(e) => UpdateSearchLtr( e.target.value)}/>

@@ -3,12 +3,14 @@
   background-color: #d3d3d3;
   display: inline; }
   .Nav-Bar li {
-    color: black;
     display: inline;
     margin-right: 30px; }
   .Nav-Bar .Nav {
     height: 30px;
     margin-bottom: 20px; }
+
+.red-col {
+  color: red; }
 
 .clocky {
   position: absolute;

@@ -7,6 +7,8 @@ import AboutComp from './components/AboutComp.js'
 import NavBar from './components/NavBar.js'
 import ErrorComp from './components/ErrorComp'
 import EditComp from './components/EditComp'
+//import ProjectMenu from './components/ProjectComps/ProjectMenu'
+//<Route exact path='/projects' component={ProjectMenu}/>
 
 function App() {
   return (
