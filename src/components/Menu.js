@@ -19,9 +19,9 @@ const Menu = () => {
                </Link>
             </Card>
             <Card className='cardEdit' >
-               <a href="https://ruizport.wordpress.com/" target="_blank" rel="noopener noreferrer">
+               <a href="https://github.com/georuiz817" target="_blank" rel="noopener noreferrer">
                   <Card.Body>
-                     Projects...  
+                     GitHub...  
                   </Card.Body>
                </a>
             </Card>
@@ -57,8 +57,8 @@ const Menu = () => {
                      <p>Click<strong> Edit</strong> on the toolbar above to make changes to the site. Feel free to also type in the red
                         highlighted letters into the search bar to quickly jump to a selected page.
                      </p>
-                     <p>If you want to see some work 
-                        with images and descriptions, be sure to click on projects and be forwarded over to my WordPress powered projects page. 
+                     <p>Want to see some work 
+                        with images and descriptions? Be sure to click on GitHub to take a look at project code and README.mds. 
                      </p>
                   </Col>
                </Row>

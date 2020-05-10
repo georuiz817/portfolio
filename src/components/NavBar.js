@@ -16,9 +16,9 @@ const NavBar = () => {
     let searchLogix = SearchLtr.toUpperCase()
     if ( searchLogix === 'A'){
       history.push('/about');
-    } else if (searchLogix === 'P'){
+    } else if (searchLogix === 'G'){
       window.open(
-        'https://ruizport.wordpress.com/',
+        'https://github.com/georuiz817',
         '_blank'  
         );
       }else if (searchLogix === 'E'){
