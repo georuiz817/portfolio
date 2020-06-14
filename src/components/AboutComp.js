@@ -3,7 +3,7 @@ import {Col, Row } from 'react-bootstrap';
 import oregon from '../photos/oregontrailme.png'
 import stony from '../photos/stonyb.jpg'
 import cert from '../photos/cert.jpg'
-import wp from '../photos/wp.png'
+import Gobbler from '../photos/Gobbler-Ex.png'
 
 const AboutComp = () => {
 
@@ -68,7 +68,7 @@ const AboutComp = () => {
           </div>
           </Col>
           <Col sm={6}>
-          <img src={wp} alt='n/a' height='100%' width='100%'/>
+          <img src={Gobbler} alt='n/a' height='100%' width='100%'/>
           </Col>
       </Row>
       <br></br>
